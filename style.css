@@ -1,0 +1,83 @@
+body {
+    background-color:azure;
+}
+
+.editor{
+    background-color: rgb(12, 8, 82);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.field{
+    width: 1860px;
+    height: 630px;
+    display: grid;
+    grid-template-columns: repeat(30, 10fr);
+    grid-template-rows: repeat(15, 10fr);
+    gap: 1px;
+}
+
+.menu-editor{
+    display: grid;
+    min-height: 30px;
+    width: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-color{
+    background: transparent;
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+.button-edit{
+    background: transparent;
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.button-edit{
+    background: transparent;
+    border: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.erase{
+    justify-content: center;
+}
+.filling{
+    justify-content: center;
+}
+.save-file{
+    justify-content: center;
+}
+
